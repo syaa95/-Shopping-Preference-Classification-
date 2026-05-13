@@ -1,5 +1,4 @@
-# 🛍️ Shopping Preference Classification with ANN
-
+# 🛍️ Shopping Preference Classification
 使用人工神经网络（ANN）对消费者的购物偏好（线上 / 线下 / 混合）进行多分类预测，并对比不同激活函数的性能表现。
 
 ---
@@ -115,7 +114,7 @@ jupyter notebook
 
 ```
 .
-├── Introduction_to_deep_learning_part5.ipynb   # 主要代码
+├── Shopping Preference Classification.ipynb   # 主要代码
 ├── images/
 │   ├── model_architecture.png                  # 模型结构图
 │   ├── confusion_matrix.png                    # 混淆矩阵
@@ -126,7 +125,7 @@ jupyter notebook
 ---
 
 ## 🔑 关键收获
-
-- 掌握了处理**类别不平衡数据**的实用方法
-- 理解了 BatchNormalization + Dropout 组合在防止过拟合中的作用
-- 通过对比实验加深了对不同**激活函数**特性的理解
+- 将消费者行为数据转化为可量化的购物渠道偏好预测模型，为零售业制定线上/线下资源分配策略提供决策依据
+- 识别并解决数据中的类别不平衡问题，确保模型对高价值少数用户群（如混合购物者）的识别能力，避免业务判断偏差
+以 Macro F1-score 作为核心评估指标，理解评估标准的选择如何影响业务决策（如不同误判的成本差异）
+- 完成从数据清洗、特征工程到模型对比评估的端到端分析流程，具备将业务问题转化为数据解决方案的实践经验
