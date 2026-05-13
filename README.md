@@ -113,7 +113,6 @@ jupyter notebook
 ## 📁 文件结构
 
 ```
-.
 ├── Shopping Preference Classification.ipynb   # 主要代码
 ├── online vs store shopping dataset.csv  # 数据集
 ├── images/
