@@ -115,7 +115,7 @@ jupyter notebook
 ```
 .
 ├── Shopping Preference Classification.ipynb   # 主要代码
-├── online vs store shopping dataset.csv  #数据集
+├── online vs store shopping dataset.csv  # 数据集
 ├── images/
 │   ├── model_architecture.png                  # 模型结构图
 │   ├── confusion_matrix.png                    # 混淆矩阵
