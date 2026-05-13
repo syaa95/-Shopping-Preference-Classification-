@@ -16,7 +16,7 @@
 
 ## 🗂️ 数据集
 
-- **名称**：Online vs Store Shopping Dataset
+- **名称**：Online vs Store Shopping Dataset from kaggle
 - **目标变量**：`shopping_preference`（Hybrid=0, Online=1, Store=2）
 - **特征**：性别、城市等级、年龄、消费金额等（含数值型与分类型特征）
 - **数据集存在类别不平衡问题**，通过 `class_weight` 进行处理
@@ -115,6 +115,7 @@ jupyter notebook
 ```
 .
 ├── Shopping Preference Classification.ipynb   # 主要代码
+├── online vs store shopping dataset.csv  #数据集
 ├── images/
 │   ├── model_architecture.png                  # 模型结构图
 │   ├── confusion_matrix.png                    # 混淆矩阵
